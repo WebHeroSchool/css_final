@@ -9,19 +9,20 @@ body {
 
 .header__menu-bar {
 	display: flex;
-	justify-content: space-between;
+	justify-content: center;
 	align-items: center;
+	flex-wrap: nowrap;
 	margin: 24px 60px 58px 42px;
 	font-family: 'Montserrat-SemiBold';
 
 }
 
 .header_logo__link {
-	margin: 0 200px 0 0;
+	margin: 0 258px 0 0;
 }
 
 .header__nav {
-	padding: 16px 0px;
+	padding: 0;
 	display: flex;
 	flex-wrap: nowrap;	
 }
@@ -34,7 +35,7 @@ body {
 	color: #E51937;
 	padding-bottom: 6px;
 	border-bottom: solid 2px #E51937;
-	border-radius: 0px 0px 10px 10px / 0px 0px 2px 2px;
+	border-radius: 0 0 10px 10px / 0 0 2px 2px;
 }
 
 .header__nav-link-modelx, .header__nav-link-model3, .header__nav-link-roadster, .header__nav-link-energy {
@@ -43,23 +44,29 @@ body {
 
 
 .header__nav-link-models {
-	margin-right: 63px;
+	margin-right: 58px;
+	padding: 1px 0 0 0;
 }
 
 .header__nav-link-modelx {
-	margin-right: 24px;
+	margin-right: 20px;
 }
 
 .header__nav-link-model3 {
-	margin-right: 44px;
+	margin-right: 42px;
 }
 
 .header__nav-link-roadster {
-	margin-right: 46px;
+	margin-right: 42px;
 }
 
 .header__nav-link-energy {
-	margin-right: 221px;
+	margin-right: 217px;
+}
+
+.header__auth {
+	display: flex;
+	flex-wrap: nowrap;
 }
 
 .header__auth a {
@@ -68,7 +75,7 @@ body {
 }
 
 .header__nav-link-shop {
-	margin-right: 30px;
+	margin-right: 25px;
 
 }
 
@@ -80,6 +87,29 @@ body {
 	width: 24px;
 	height: 15px;
 }
+
+/*"Эффекты наведения"*/
+.header__nav-link-modelx:hover,
+.header__nav-link-model3:hover,
+.header__nav-link-roadster:hover,
+.header__nav-link-energy:hover,
+.header__nav-link-shop:hover,
+.header__nav-link-entry:hover
+     {
+	color: #E51937;
+	padding-bottom: 6px;
+	border-bottom: solid 2px #E51937;
+	border-radius: 0 0 10px 10px / 0 0 2px 2px;
+}
+
+.intro__button:hover {
+	color: white;
+	background-color: #E51937;
+	cursor: pointer;
+
+}
+
+
 
 /*Окончание стилей для header*/
 
@@ -95,20 +125,23 @@ body {
 	font-family: 'Montserrat-SemiBold';
 	font-size: 90px;
 	padding: 0;
-	margin: 0 0 9px 0;
+	margin: 0 0 0px 0;
 
 }
 
 .intro__subtitle {
 	font-family: 'Montserrat-Medium';
 	font-size: 15px;
+	box-sizing: border-box;
 	padding: 0;
-	margin: 0 0 26px 0;
+	margin: -12px 0 26px 0;
 	
 }
 
 .intro__car-img {
 	max-width: 100%;
+	position: relative;
+	right: 35px;
 }
 
 .intro {
@@ -125,15 +158,16 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 0 0 37px 0;
+	margin: 0 0 30px 0;
 		
 }
 
 .intro__speedometr {
 	display: flex;
 	flex-wrap: wrap;
-	margin-right: 81px;
+	margin-right: 40px;
 	width: 180px;
+	padding: 0 0 0 0;
 	
 }
 
@@ -180,7 +214,8 @@ body {
 .intro__road {
 	display: flex;
 	align-items: center;
-	margin: 0 105px 0 0;
+	margin: 0 97px 0 0;
+	padding: 0;
 	width: 160px;
 	flex-wrap: wrap;
 }
@@ -188,15 +223,16 @@ body {
 .intro__road img {
 	margin: 0 12px 0 0;
 	padding: 0;
-	
 	position: relative;
-	top: 15px;
+	top: 6px;
+	left: 6px;
 }
 
 .intro__road .intro__numbers {
 	font-family: 'Montserrat-SemiBold';
 	font-size: 35px;
 	margin: 0 7px 0 0;
+	padding: 0 0 15px 0;
 	
 }
 
@@ -204,7 +240,7 @@ body {
 .intro__road .intro__units {
 	font-family: 'Montserrat-SemiBold';
 	font-size: 20px;
-	padding-top: 10px;
+	padding: 0 0 10px 0;
 	
 }
 
@@ -221,7 +257,7 @@ body {
 .intro__steering-wheel {
 	display: flex;
 	align-items: center;
-	margin: 0 40px 0 0;
+	margin: 0 43px 0 0;
 }
 
 .intro__img-steerengred {
@@ -253,6 +289,7 @@ body {
 	text-transform: uppercase;
 	color: #E51937;
 	background-color: white;
+	margin: 0 0 3px 0;
 }
 
 /*Указатель*/
@@ -266,6 +303,16 @@ body {
 
 /*Начало стилей для Ipod*/
 @media  (max-width: 822px) {
+	.header__menu-bar {
+		justify-content: space-between;
+		margin-left: 15px;
+		margin-bottom: 80px;
+	}
+
+	.header_logo__link {
+		margin-right: 518px;
+	}
+
 	.header__nav {
 		display: none;
 	}
@@ -285,9 +332,20 @@ body {
 		width: 100%;
 	background-image: url(img/svg/Tesla-Wordmark-Red-Ipod.png);
 	background-repeat: no-repeat;
-	background-position: 0 8%;
+	background-position: 0 19%;
 	background-size: 100%;
 }
+
+	.intro__car-img {
+		width: 672.6px;
+		height: 327.64px;
+		top: 54px;
+		left: 11px;
+	}
+
+	.intro__title-subtitle {
+		margin-bottom: 95px;
+	}
 
 	.intro__feature {
 		max-width: 822px;
@@ -297,16 +355,28 @@ body {
 	}
 
 	.intro__speedometr {
-		margin: 0px 68px 55px 100px;
+		margin: 0 68px 55px 80px;
 	}
+
+	.intro__speedometr .intro__units {
+		padding-bottom: 15px; 
+		padding-left: 4px;
+
+	}
+
+
 
 	.intro__road {
-		margin: 0px 100px 55px 0;
+		margin: 0 100px 58px 0;
 	}
 
-	.intro__steering-wheel {
-		margin: 0 35px 0 0;
+	.intro__road img {
+
 	}
+
+	
+
+
 
 	.intro__button {
 		margin: 0;
@@ -347,6 +417,9 @@ body {
 
 /**************/
 
+.intro__steering-wheel {
+		margin: 0 35px 0 0;
+	}
 
 .intro__img-steerengblack {
 	display: none;
@@ -354,6 +427,9 @@ body {
 
 .intro__img-steerengred {
 	display: inline;
+	padding-left: 13px;
+	padding-right: 18px;
+
 }
 .intro__steering-wheel span {
 	color: #E51937;
@@ -376,7 +452,9 @@ body {
 
 
 @media  (max-width: 442px) {
-
+	.header__menu-bar {
+		margin: 5px 21px 26px 2px;	
+	}
 
 	.header_logo__img {
 		width: 138px;
@@ -387,6 +465,10 @@ body {
 		margin:0;
 	}
 
+	.header__auth {
+		padding-right: 6px;
+	}
+
 	.header__hamburger-menu {
 		width: 24px;
 		height: 15px;
@@ -394,22 +476,38 @@ body {
 
 	.intro__title {
 		font-size: 50px;
+		padding-right: 5px;
+		margin-bottom: 10px;
 	}
 
 	.intro__subtitle {
 		font-size: 10px;
+		padding-right: 5px;
+		margin-bottom: 49px;
 	}
 
 	.intro {
-		background-position: 0 10%;
+		background-position: 0% 17.5%;
+	}
+
+	.intro__car-img {
+		width: 357px;
+		height: 166px;
+		top: 0;
+		left: 0;
+	}
+
+	.intro__title-subtitle {
+		margin-bottom: 18px;
 	}
 /**************************************/
 .intro__feature {
 	align-items: center;
+	margin-bottom: 28px;
 }
 
 .intro__speedometr {
-	margin: 0 41px 43px 0;
+	margin: 0 42px 42px 0;
 	width: 130px;
 }
 
@@ -439,7 +537,7 @@ body {
 .intro__road img {
 	width: 30px;
 	height: 49px;
-	padding: 0px;
+	padding: 0;
 	margin: 0 14px 0 0;
 }
 
@@ -458,20 +556,24 @@ body {
 /**********************************************/
 
 .intro__steering-wheel{
-	margin: 0 25px 34px 36px;
+	margin: 0 39px 0px 15px;
 }
 
-.intro__steering-wheel span{
+.intro__steering-wheel span {
 	font-size: 13px;
 }
 
 .intro__img-steerengred {
 	width: 22px;
 	height: 22px;
+	padding: 0 0 10px 10px;
+	margin: 0;
 }
 
 .intro__button {
 	width: 160px;
 	height: 40px;
 	font-size: 13px;
-	margin: 0 36px 34px 0;
+	margin: 0 36px 0 0;
+  }
+}
