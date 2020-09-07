@@ -1,11 +1,9 @@
 body {
 	margin: 0 auto;
-	max-width: 1440px;
-
+	max-width: 100%;
 }
 
-/*Начало стилей для header*/
-
+/* Начало стилей для header*/
 
 .header__menu-bar {
 	display: flex;
@@ -14,7 +12,6 @@ body {
 	flex-wrap: nowrap;
 	margin: 24px 60px 58px 42px;
 	font-family: 'Montserrat-SemiBold';
-
 }
 
 .header_logo__link {
@@ -32,16 +29,19 @@ body {
 }
 
 .header__nav-link_active {
-	color: #E51937;
+	color: #e51937;
 	padding-bottom: 6px;
-	border-bottom: solid 2px #E51937;
+	border-bottom: solid 2px #e51937;
 	border-radius: 0 0 10px 10px / 0 0 2px 2px;
 }
 
-.header__nav-link-modelx, .header__nav-link-model3, .header__nav-link-roadster, .header__nav-link-energy {
-	color: #000000;
+.header__nav-link-modelx,
+.header__nav-link-model3,
+.header__nav-link-roadster,
+.header__nav-link-energy
+	{
+		color: #000;
 }
-
 
 .header__nav-link-models {
 	margin-right: 58px;
@@ -71,12 +71,11 @@ body {
 
 .header__auth a {
 	text-decoration: none;
-	color: #000000;
+	color: #000;
 }
 
 .header__nav-link-shop {
 	margin-right: 25px;
-
 }
 
 .header__nav-link-entry {
@@ -88,7 +87,7 @@ body {
 	height: 15px;
 }
 
-/*"Эффекты наведения"*/
+/* "Эффекты наведения"*/
 .header__nav-link-modelx:hover,
 .header__nav-link-model3:hover,
 .header__nav-link-roadster:hover,
@@ -96,24 +95,21 @@ body {
 .header__nav-link-shop:hover,
 .header__nav-link-entry:hover
      {
-	color: #E51937;
-	padding-bottom: 6px;
-	border-bottom: solid 2px #E51937;
-	border-radius: 0 0 10px 10px / 0 0 2px 2px;
+     	color: #e51937;
+     	padding-bottom: 6px;
+     	border-bottom: solid 2px #e51937;
+     	border-radius: 0 0 10px 10px / 0 0 2px 2px;
 }
 
 .intro__button:hover {
 	color: white;
-	background-color: #E51937;
+	background-color: #e51937;
 	cursor: pointer;
-
 }
 
+/* Окончание стилей для header*/
 
-
-/*Окончание стилей для header*/
-
-/*Начало стилей для intro*/
+/* Начало стилей для intro*/
 
 .intro__title-subtitle {
 	display: flex;
@@ -125,7 +121,7 @@ body {
 	font-family: 'Montserrat-SemiBold';
 	font-size: 90px;
 	padding: 0;
-	margin: 0 0 0px 0;
+	margin: 0;
 
 }
 
@@ -153,13 +149,14 @@ body {
 .intro__title-subtitle {
 	margin-bottom: 26px;
 }
-/*Блок 2,7сек 0-100км/ч */
+
+/* Блок 2,7сек 0-100км/ч */
+
 .intro__feature {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	margin: 0 0 30px 0;
-		
 }
 
 .intro__speedometr {
@@ -167,8 +164,7 @@ body {
 	flex-wrap: wrap;
 	margin-right: 40px;
 	width: 180px;
-	padding: 0 0 0 0;
-	
+	padding: 0;
 }
 
 .intro__speedometr img {
@@ -178,7 +174,6 @@ body {
 	align-self: flex-end;
 	position: relative;
 	bottom: -8px;
-
 }
 
 
@@ -187,7 +182,6 @@ body {
 	font-size: 35px;
 	align-self: flex-end;
 	padding: 0 6px 0 0;
-	
 }
 
 .intro__speedometr .intro__units {
@@ -195,7 +189,6 @@ body {
 	font-size: 20px;
 	padding-bottom: 3px;
 	align-self: flex-end;
-	
 }
 
 .intro__speedometr .intro_data {
@@ -203,13 +196,10 @@ body {
 	font-family: 'Montserrat-Regular';
 	margin: 0 0 0 60px;
 	align-self: flex-start;
-	
 }
 
 
-/*Блок 632км запас хода*/
-
-
+/* Блок 632км запас хода*/
 
 .intro__road {
 	display: flex;
@@ -233,7 +223,6 @@ body {
 	font-size: 35px;
 	margin: 0 7px 0 0;
 	padding: 0 0 15px 0;
-	
 }
 
 
@@ -241,17 +230,15 @@ body {
 	font-family: 'Montserrat-SemiBold';
 	font-size: 20px;
 	padding: 0 0 10px 0;
-	
 }
 
 .intro__road .intro_data {
 	font-size: 12px;
 	font-family: 'Montserrat-Regular';
 	margin: -10px 0 0 55px;
-	
 }
 
-/*Блок Тест Драйв*/
+/* Блок Тест Драйв*/
 
 
 .intro__steering-wheel {
@@ -276,18 +263,18 @@ body {
 	text-transform: uppercase;
 }
 
-/*Кнопка ЗАКАЗАТЬ*/
+/* Кнопка ЗАКАЗАТЬ*/
 
 .intro__button {
 	box-sizing: border-box;
-	border: 2px solid #E51937;
+	border: 2px solid #e51937;
 	width: 160px;
 	height: 40px;
 	text-align: center;
 	font-family: 'Montserrat-Bold';
 	font-size: 13px;
 	text-transform: uppercase;
-	color: #E51937;
+	color: #e51937;
 	background-color: white;
 	margin: 0 0 3px 0;
 }
@@ -317,7 +304,8 @@ body {
 		display: none;
 	}
 
-	.header__auth .header__nav-link-shop, .header__auth .header__nav-link-entry {
+	.header__auth .header__nav-link-shop,
+	.header__auth .header__nav-link-entry {
 		display: none;
 	}
 
@@ -330,11 +318,11 @@ body {
 
 	.intro {
 		width: 100%;
-	background-image: url(img/svg/Tesla-Wordmark-Red-Ipod.png);
-	background-repeat: no-repeat;
-	background-position: 0 19%;
-	background-size: 100%;
-}
+		background-image: url(img/svg/Tesla-Wordmark-Red-Ipod.png);
+		background-repeat: no-repeat;
+		background-position: 0 19%;
+		background-size: 100%;
+	}
 
 	.intro__car-img {
 		width: 672.6px;
@@ -361,22 +349,11 @@ body {
 	.intro__speedometr .intro__units {
 		padding-bottom: 15px; 
 		padding-left: 4px;
-
 	}
-
-
 
 	.intro__road {
 		margin: 0 100px 58px 0;
 	}
-
-	.intro__road img {
-
-	}
-
-	
-
-
 
 	.intro__button {
 		margin: 0;
@@ -394,7 +371,6 @@ body {
 	height: 50px;
 }
 
-
 .intro__speedometr .intro__numbers {
 	font-size: 50px;	
 }
@@ -406,7 +382,9 @@ body {
 .intro__speedometr .intro_data {
 	margin: 0 0 0 80px;
 }
+
 /**************************************************************************/
+
 .intro__road {
 	width: 180px
 }
@@ -429,8 +407,8 @@ body {
 	display: inline;
 	padding-left: 13px;
 	padding-right: 18px;
-
 }
+
 .intro__steering-wheel span {
 	color: #E51937;
 	font-size: 16px;
@@ -449,7 +427,6 @@ body {
 }
 
 /*Окончание стилей для Ipod*/
-
 
 @media  (max-width: 442px) {
 	.header__menu-bar {
@@ -500,7 +477,9 @@ body {
 	.intro__title-subtitle {
 		margin-bottom: 18px;
 	}
+
 /**************************************/
+
 .intro__feature {
 	align-items: center;
 	margin-bottom: 28px;
@@ -511,7 +490,7 @@ body {
 	width: 130px;
 }
 
-	.intro__speedometr img {
+.intro__speedometr img {
 	width: 38px;
 	height: 28px;
 }
@@ -528,12 +507,14 @@ body {
 	font-size: 10px;
 	margin: 0 0 0 55px;
 }
+
 /******************************************/
 
 .intro__road {
 	margin: 0 0 43px 0;
 	width: 125px;
 }
+
 .intro__road img {
 	width: 30px;
 	height: 49px;
@@ -553,10 +534,11 @@ body {
 	font-size: 10px;
 	margin: -5px 0 0 45px;
 }
+
 /**********************************************/
 
-.intro__steering-wheel{
-	margin: 0 39px 0px 15px;
+.intro__steering-wheel {
+	margin: 0 39px 0 15px;
 }
 
 .intro__steering-wheel span {
