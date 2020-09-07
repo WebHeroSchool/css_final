@@ -1,59 +1,59 @@
 body {
-	margin: 0 auto;
-	max-width: 100%;
+  margin: 0 auto;
+  max-width: 100%;
 }
 
-/* Начало стилей для header*/
+/* Начало стилей для header */
 
 .header__menu-bar {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: nowrap;
-	margin: 24px 60px 58px 42px;
-	font-family: 'Montserrat-SemiBold';
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 24px 60px 58px 42px;
+  font-family: 'Montserrat-SemiBold';
 }
 
 .header_logo__link {
-	margin: 0 258px 0 0;
+  margin: 0 258px 0 0;
 }
 
 .header__nav {
-	padding: 0;
-	display: flex;
-	flex-wrap: nowrap;	
+  padding: 0;
+  display: flex; 
+  flex-wrap: nowrap;
 }
 
 .header__nav a {
-	text-decoration: none;
+  text-decoration: none;
 }
 
 .header__nav-link_active {
-	color: #e51937;
-	padding-bottom: 6px;
-	border-bottom: solid 2px #e51937;
-	border-radius: 0 0 10px 10px / 0 0 2px 2px;
+  color: #e51937;
+  padding-bottom: 6px;
+  border-bottom: solid 2px #e51937;
+  border-radius: 0 0 10px 10px / 0 0 2px 2px;
 }
 
 .header__nav-link-modelx,
 .header__nav-link-model3,
 .header__nav-link-roadster,
 .header__nav-link-energy
-	{
-		color: #000;
+ {
+ 	color: #000;
 }
 
 .header__nav-link-models {
-	margin-right: 58px;
-	padding: 1px 0 0 0;
+  margin-right: 58px;
+  padding: 1px 0 0 0;
 }
 
 .header__nav-link-modelx {
-	margin-right: 20px;
+  margin-right: 20px;
 }
 
 .header__nav-link-model3 {
-	margin-right: 42px;
+  margin-right: 42px;
 }
 
 .header__nav-link-roadster {
@@ -61,7 +61,7 @@ body {
 }
 
 .header__nav-link-energy {
-	margin-right: 217px;
+  margin-right: 217px;
 }
 
 .header__auth {
@@ -75,19 +75,19 @@ body {
 }
 
 .header__nav-link-shop {
-	margin-right: 25px;
+  margin-right: 25px;
 }
 
 .header__nav-link-entry {
-	margin-right: 30px;
+  margin-right: 30px;
 }
 
 .header__hamburger-menu {
-	width: 24px;
-	height: 15px;
+  width: 24px;
+  height: 15px;
 }
 
-/* "Эффекты наведения"*/
+/* "Эффекты наведения" */
 .header__nav-link-modelx:hover,
 .header__nav-link-model3:hover,
 .header__nav-link-roadster:hover,
@@ -107,9 +107,9 @@ body {
 	cursor: pointer;
 }
 
-/* Окончание стилей для header*/
+/* Окончание стилей для header */
 
-/* Начало стилей для intro*/
+/* Начало стилей для intro */
 
 .intro__title-subtitle {
 	display: flex;
@@ -122,14 +122,13 @@ body {
 	font-size: 90px;
 	padding: 0;
 	margin: 0;
-
 }
 
 .intro__subtitle {
 	font-family: 'Montserrat-Medium';
 	font-size: 15px;
 	box-sizing: border-box;
-	padding: 0;
+	padding: 0;  
 	margin: -12px 0 26px 0;
 	
 }
@@ -175,7 +174,6 @@ body {
 	position: relative;
 	bottom: -8px;
 }
-
 
 .intro__speedometr .intro__numbers {
 	font-family: 'Montserrat-SemiBold';
@@ -410,18 +408,18 @@ body {
 }
 
 .intro__steering-wheel span {
-	color: #E51937;
+	color: #e51937;
 	font-size: 16px;
 }
 
 /******************/
 
 .intro__button {
-	width: 221px;
-	height: 55px;
-	font-size: 16px;
-	color: white;
-	background-color: #E51937;
+  width: 221px;
+  height: 55px;
+  font-size: 16px;
+  color: white;
+  background-color: #e51937;
 }
 
 }
