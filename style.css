@@ -11,7 +11,7 @@ body {
   align-items: center;
   flex-wrap: nowrap;
   margin: 24px 60px 58px 42px;
-  font-family: 'Montserrat-SemiBold';
+  font-family: 'Montserrat-SemiBold', arial;
 }
 
 .header_logo__link {
@@ -20,7 +20,7 @@ body {
 
 .header__nav {
   padding: 0;
-  display: flex; 
+  display: flex;
   flex-wrap: nowrap;
 }
 
@@ -38,9 +38,8 @@ body {
 .header__nav-link-modelx,
 .header__nav-link-model3,
 .header__nav-link-roadster,
-.header__nav-link-energy
-  {
- 	color: #000;
+.header__nav-link-energy {
+  color: #000;
 }
 
 .header__nav-link-models {
@@ -101,12 +100,6 @@ body {
   border-radius: 0 0 10px 10px / 0 0 2px 2px;
 }
 
-.intro__button:hover {
-  color: white;
-  background-color: #e51937;
-  cursor: pointer;
-}
-
 /* Окончание стилей для header */
 
 /* Начало стилей для intro */
@@ -125,12 +118,11 @@ body {
 }
 
 .intro__subtitle {
-  font-family: 'Montserrat-Medium';
+  font-family: 'Montserrat-Medium', arial;
   font-size: 15px;
   box-sizing: border-box;
-  padding: 0;  
+  padding: 0;
   margin: -12px 0 26px 0;
-	
 }
 
 .intro__car-img {
@@ -191,13 +183,12 @@ body {
 
 .intro__speedometr .intro_data {
   font-size: 12px;
-  font-family: 'Montserrat-Regular';
+  font-family: 'Montserrat-Regular', arial;
   margin: 0 0 0 60px;
   align-self: flex-start;
 }
 
-
-/* Блок 632км запас хода*/
+/* Блок 632км запас хода */
 
 .intro__road {
   display: flex;
@@ -236,8 +227,7 @@ body {
   margin: -10px 0 0 55px;
 }
 
-/* Блок Тест Драйв*/
-
+/* Блок Тест Драйв */
 
 .intro__steering-wheel {
   display: flex;
@@ -256,12 +246,12 @@ body {
 }
 
 .intro__steering-wheel span {
-  font-family: 'Montserrat-Bold';
+  font-family: 'Montserrat-Bold', arial;
   font-size: 13px;
   text-transform: uppercase;
 }
 
-/* Кнопка ЗАКАЗАТЬ*/
+/* Кнопка ЗАКАЗАТЬ */
 
 .intro__button {
   box-sizing: border-box;
@@ -277,283 +267,288 @@ body {
   margin: 0 0 3px 0;
 }
 
-/*Указатель*/
+.intro__button:hover {
+  color: white;
+  background-color: #e51937;
+  cursor: pointer;
+}
+
+/* Указатель */
 
 .intro__daw {
   display: flex;
   justify-content: center;
 }
 
-/*Окончанияе стилей для intro*/
+/* Окончанияе стилей для intro */
 
-/*Начало стилей для Ipod*/
+/* Начало стилей для Ipod */
 @media  (max-width: 822px) {
-	.header__menu-bar {
-	  justify-content: space-between;
-	  margin-left: 15px;
-	  margin-bottom: 80px;
-	}
+  .header__menu-bar {
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-bottom: 80px;
+  }
 
-	.header_logo__link {
-	  margin-right: 518px;
-	}
+  .header_logo__link {
+  	margin-right: 518px;
+  }
 
-	.header__nav {
-	  display: none;
-	}
+  .header__nav {
+  	display: none;
+  }
 
-	.header__auth .header__nav-link-shop,
-	.header__auth .header__nav-link-entry {
-	  display: none;
-	}
+  .header__auth .header__nav-link-shop,
+  .header__auth .header__nav-link-entry {
+  	display: none;
+  }
 
-	.header__hamburger-menu {
-	  width: 35px;
-	  height: 22px;
-	}
+  .header__hamburger-menu {
+  	width: 35px;
+  	height: 22px;
+  }
 
 	/**********************************************************************/
 
-	.intro {
-	  width: 100%;
-	  background-image: url(img/svg/Tesla-Wordmark-Red-Ipod.png);
-	  background-repeat: no-repeat;
-	  background-position: 0 19%;
-	  background-size: 100%;
-	}
+  .intro {
+  	width: 100%;
+  	background-image: url(img/svg/Tesla-Wordmark-Red-Ipod.png);
+  	background-repeat: no-repeat;background-position: 0 19%;
+  	background-size: 100%;
+  }
 
-	.intro__car-img {
-	  width: 672.6px;
-	  height: 327.64px;
-	  top: 54px;
-	  left: 11px;
-	}
+  .intro__car-img {
+  	width: 672.6px;
+  	height: 327.64px;
+  	top: 54px;
+  	left: 11px;
+  }
 
-	.intro__title-subtitle {
-	  margin-bottom: 95px;
-	}
+  .intro__title-subtitle {
+  	margin-bottom: 95px;
+  }
 
-	.intro__feature {
-	  max-width: 822px;
-	  flex-wrap: wrap;
-	  justify-content: center;
-	  margin: 0 0 64px 0;
-	}
+  .intro__feature {
+  	max-width: 822px;
+  	flex-wrap: wrap;
+  	justify-content: center;
+  	margin: 0 0 64px 0;
+  }
 
-	.intro__speedometr {
-	  margin: 0 68px 55px 80px;
-	}
+  .intro__speedometr {
+  	margin: 0 68px 55px 80px;
+  }
 
-	.intro__speedometr .intro__units {
-	  padding-bottom: 15px; 
-	  padding-left: 4px;
-	}
+  .intro__speedometr .intro__units {
+  	padding-bottom: 15px; 
+  	padding-left: 4px;
+  }
 
-	.intro__road {
-	  margin: 0 100px 58px 0;
-	}
+  .intro__road {
+  	margin: 0 100px 58px 0;
+  }
 
-	.intro__button {
-	  margin: 0;
-	}
+  .intro__button {
+  	margin: 0;
+  }
 
 /********************************************/
 
-.intro__speedometr {
-  margin-right: 81px;
-  width: 200px;
-}
+  .intro__speedometr {
+    margin-right: 81px;
+    width: 200px;
+  }
 
-.intro__speedometr img {
-  width: 67px;
-  height: 50px;
-}
+  .intro__speedometr img {
+    width: 67px;
+    height: 50px;
+  }
 
-.intro__speedometr .intro__numbers {
-  font-size: 50px;	
-}
+  .intro__speedometr .intro__numbers {
+    font-size: 50px;	
+  }
 
-.intro__speedometr .intro__units {
-  font-size: 20px;
-}
+  .intro__speedometr .intro__units {
+    font-size: 20px;
+  }
 
-.intro__speedometr .intro_data {
-  margin: 0 0 0 80px;
-}
+  .intro__speedometr .intro_data {
+    margin: 0 0 0 80px;
+  }
 
-/**************************************************************************/
+  /**************************************************************************/
 
-.intro__road {
-  width: 180px
-}
+  .intro__road {
+    width: 180px
+  }
 
-.intro__road .intro__numbers {
-  font-size: 50px;
-}
+  .intro__road .intro__numbers {
+    font-size: 50px;
+  }
 
-/**************/
+  /**************/
 
-.intro__steering-wheel {
-	  margin: 0 35px 0 0;
-	}
+  .intro__steering-wheel {
+  	margin: 0 35px 0 0;
+  }
 
-.intro__img-steerengblack {
-  display: none;
-}
+  .intro__img-steerengblack {
+  	display: none;
+  }
 
-.intro__img-steerengred {
-  display: inline;
-  padding-left: 13px;
-  padding-right: 18px;
-}
+  .intro__img-steerengred {
+    display: inline;
+    padding-left: 13px;
+    padding-right: 18px;
+  }
 
-.intro__steering-wheel span {
-  color: #e51937;
-  font-size: 16px;
-}
+  .intro__steering-wheel span {
+    color: #e51937;
+    font-size: 16px;
+  }
 
 /******************/
 
-.intro__button {
-  width: 221px;
-  height: 55px;
-  font-size: 16px;
-  color: white;
-  background-color: #e51937;
-}
+  .intro__button {
+    width: 221px;
+    height: 55px;
+    font-size: 16px;
+    color: white;
+    background-color: #e51937;
+  }
 
 }
 
 /*Окончание стилей для Ipod*/
 
 @media  (max-width: 442px) {
-	.header__menu-bar {
-	  margin: 5px 21px 26px 2px;	
-	}
+  .header__menu-bar {
+  	margin: 5px 21px 26px 2px;
+  }
 
-	.header_logo__img {
-	  width: 138px;
-	  height: 42px;
-	}
+  .header_logo__img {
+  	width: 138px;
+  	height: 42px;
+  }
 
-	.header_logo__link{
-	  margin:0;
-	}
+  .header_logo__link{
+  	margin:0;
+  }
 
-	.header__auth {
-	  padding-right: 6px;
-	}
+  .header__auth {
+  	padding-right: 6px;
+  }
 
-	.header__hamburger-menu {
-	  width: 24px;
-	  height: 15px;
-	}
+  .header__hamburger-menu {
+  	width: 24px;
+  	height: 15px;
+  }
 
-	.intro__title {
-	  font-size: 50px;
-	  padding-right: 5px;
-	  margin-bottom: 10px;
-	}
+  .intro__title {
+    font-size: 50px;
+    padding-right: 5px;
+    margin-bottom: 10px;
+  }
 
-	.intro__subtitle {
-	  font-size: 10px;
-	  padding-right: 5px;
-	  margin-bottom: 49px;
-	}
+  .intro__subtitle {
+    font-size: 10px;
+    padding-right: 5px;
+    margin-bottom: 49px;
+  }
 
-	.intro {
-	  background-position: 0% 17.5%;
-	}
+  .intro {
+    background-position: 0% 17.5%;
+  }
 
-	.intro__car-img {
-	  width: 357px;
-	  height: 166px;
-	  top: 0;
-	  left: 0;
-	}
+  .intro__car-img {
+    width: 357px;
+    height: 166px;
+    top: 0;
+    left: 0;
+  }
 
-	.intro__title-subtitle {
-	  margin-bottom: 18px;
-	}
+  .intro__title-subtitle {
+    margin-bottom: 18px;
+  }
 
 /**************************************/
 
-.intro__feature {
-  align-items: center;
-  margin-bottom: 28px;
-}
+  .intro__feature {
+    align-items: center;
+    margin-bottom: 28px;
+  }
 
-.intro__speedometr {
-  margin: 0 42px 42px 0;
-  width: 130px;
-}
+  .intro__speedometr {
+    margin: 0 42px 42px 0;
+    width: 130px;
+  }
 
-.intro__speedometr img {
-  width: 38px;
-  height: 28px;
-}
+  .intro__speedometr img {
+    width: 38px;
+    height: 28px;
+  }
 
-.intro__speedometr .intro__numbers {
-  font-size: 27px;	
-}
+  .intro__speedometr .intro__numbers {
+    font-size: 27px;	
+  }
 
-.intro__speedometr .intro__units {
-  font-size: 15px;
-}
+  .intro__speedometr .intro__units {
+    font-size: 15px;
+  }
 
-.intro__speedometr .intro_data {
-  font-size: 10px;
-  margin: 0 0 0 55px;
-}
+  .intro__speedometr .intro_data {
+    font-size: 10px;
+    margin: 0 0 0 55px;
+  }
 
 /******************************************/
 
-.intro__road {
-  margin: 0 0 43px 0;
-  width: 125px;
-}
+  .intro__road {
+    margin: 0 0 43px 0;
+    width: 125px;
+  }
 
-.intro__road img {
-  width: 30px;
-  height: 49px;
-  padding: 0;
-  margin: 0 14px 0 0;
-}
+  .intro__road img {
+    width: 30px;
+    height: 49px;
+    padding: 0;
+    margin: 0 14px 0 0;
+  }
 
-.intro__road .intro__numbers {
-  font-size: 27px;
-}
+  .intro__road .intro__numbers {
+    font-size: 27px;
+  }
 
-.intro__road .intro__units {
-  font-size: 15px;
-}
+  .intro__road .intro__units {
+    font-size: 15px;
+  }
 
-.intro__road .intro_data {
-  font-size: 10px;
-  margin: -5px 0 0 45px;
-}
+  .intro__road .intro_data {
+    font-size: 10px;
+    margin: -5px 0 0 45px;
+  }
 
 /**********************************************/
 
-.intro__steering-wheel {
-  margin: 0 39px 0 15px;
-}
+  .intro__steering-wheel {
+    margin: 0 39px 0 15px;
+  }
 
-.intro__steering-wheel span {
-  font-size: 13px;
-}
+  .intro__steering-wheel span {
+    font-size: 13px;
+  }
 
-.intro__img-steerengred {
-  width: 22px;
-  height: 22px;
-  padding: 0 0 10px 10px;
-  margin: 0;
-}
+  .intro__img-steerengred {
+    width: 22px;
+    height: 22px;
+    padding: 0 0 10px 10px;
+    margin: 0;
+  }
 
-.intro__button {
-  width: 160px;
-  height: 40px;
-  font-size: 13px;
-  margin: 0 36px 0 0;
+  .intro__button {
+    width: 160px;
+    height: 40px;
+    font-size: 13px;
+    margin: 0 36px 0 0;
   }
 }
