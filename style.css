@@ -14,14 +14,11 @@ body {
   font-family: 'Montserrat-SemiBold', arial, sans-serif;
 }
 
-.header_logo__link {
-  margin: 0 258px 0 0;
-}
-
 .header__nav {
   padding: 0;
   display: flex;
   flex-wrap: nowrap;
+  margin: 0 auto;
 }
 
 .header__nav a {
@@ -57,10 +54,6 @@ body {
 
 .header__nav-link-roadster {
   margin-right: 42px;
-}
-
-.header__nav-link-energy {
-  margin-right: 217px;
 }
 
 .header__auth {
@@ -284,10 +277,6 @@ body {
     justify-content: space-between;
     margin-left: 15px;
     margin-bottom: 80px;
-  }
-
-  .header_logo__link {
-    margin-right: 518px;
   }
 
   .header__nav {
