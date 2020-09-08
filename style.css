@@ -108,6 +108,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 26px;
 }
 
 .intro__title {
@@ -135,10 +136,6 @@ body {
   background-image: url(img/svg/Tesla-Wordmark-Red.png);
   background-repeat: no-repeat;
   background-position: center top;
-}
-
-.intro__title-subtitle {
-  margin-bottom: 26px;
 }
 
 /* Блок 2,7сек 0-100км/ч */
@@ -214,7 +211,6 @@ body {
   padding: 0 0 15px 0;
 }
 
-
 .intro__road .intro__units {
   font-family: 'Montserrat-SemiBold';
   font-size: 20px;
@@ -283,7 +279,8 @@ body {
 /* Окончанияе стилей для intro */
 
 /* Начало стилей для Ipod */
-@media  (max-width: 822px) {
+
+@media (max-width: 822px) {
   .header__menu-bar {
     justify-content: space-between;
     margin-left: 15px;
@@ -291,71 +288,69 @@ body {
   }
 
   .header_logo__link {
-  	margin-right: 518px;
+    margin-right: 518px;
   }
 
   .header__nav {
-  	display: none;
+    display: none;
   }
 
   .header__auth .header__nav-link-shop,
   .header__auth .header__nav-link-entry {
-  	display: none;
+    display: none;
   }
 
   .header__hamburger-menu {
-  	width: 35px;
-  	height: 22px;
+    width: 35px;
+    height: 22px;
   }
 
 	/**********************************************************************/
 
   .intro {
-  	width: 100%;
-  	background-image: url(img/svg/Tesla-Wordmark-Red-Ipod.png);
-  	background-repeat: no-repeat;background-position: 0 19%;
-  	background-size: 100%;
+    width: 100%;
+    background-image: url(img/svg/Tesla-Wordmark-Red-Ipod.png);
+    background-repeat: no-repeat;background-position: 0 19%;
+    background-size: 100%;
   }
 
   .intro__car-img {
-  	width: 672.6px;
-  	height: 327.64px;
-  	top: 54px;
-  	left: 11px;
+    width: 672.6px;
+    height: 327.64px;
+    top: 54px;
+    left: 11px;
   }
 
   .intro__title-subtitle {
-  	margin-bottom: 95px;
+    margin-bottom: 95px;
   }
 
   .intro__feature {
-  	max-width: 822px;
-  	flex-wrap: wrap;
-  	justify-content: center;
-  	margin: 0 0 64px 0;
-  }
-
-  .intro__speedometr {
-  	margin: 0 68px 55px 80px;
+    max-width: 822px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 0 64px 0;
   }
 
   .intro__speedometr .intro__units {
-  	padding-bottom: 15px; 
-  	padding-left: 4px;
+    padding-bottom: 15px; 
+    padding-left: 4px;
+    font-size: 20px;
   }
 
   .intro__road {
-  	margin: 0 100px 58px 0;
+    width: 180px;
+    margin: 0 100px 58px 0;
   }
 
   .intro__button {
-  	margin: 0;
+    margin: 0;
   }
 
-/********************************************/
+/* ****************************************** */
 
   .intro__speedometr {
-    margin-right: 81px;
+  	margin: 0 81px 55px 80px;
     width: 200px;
   }
 
@@ -365,28 +360,20 @@ body {
   }
 
   .intro__speedometr .intro__numbers {
-    font-size: 50px;	
-  }
-
-  .intro__speedometr .intro__units {
-    font-size: 20px;
+    font-size: 50px;
   }
 
   .intro__speedometr .intro_data {
     margin: 0 0 0 80px;
   }
 
-  /**************************************************************************/
-
-  .intro__road {
-    width: 180px
-  }
+  /* ************************************************************************ */
 
   .intro__road .intro__numbers {
     font-size: 50px;
   }
 
-  /**************/
+  /* ************ */
 
   .intro__steering-wheel {
   	margin: 0 35px 0 0;
@@ -407,7 +394,7 @@ body {
     font-size: 16px;
   }
 
-/******************/
+/* **************** */
 
   .intro__button {
     width: 221px;
@@ -416,10 +403,9 @@ body {
     color: white;
     background-color: #e51937;
   }
-
 }
 
-/*Окончание стилей для Ipod*/
+/* Окончание стилей для Ipod */
 
 @media  (max-width: 442px) {
   .header__menu-bar {
@@ -440,8 +426,8 @@ body {
   }
 
   .header__hamburger-menu {
-  	width: 24px;
-  	height: 15px;
+    width: 24px;
+    height: 15px;
   }
 
   .intro__title {
@@ -471,7 +457,7 @@ body {
     margin-bottom: 18px;
   }
 
-/**************************************/
+/* ************************************ */
 
   .intro__feature {
     align-items: center;
@@ -501,7 +487,7 @@ body {
     margin: 0 0 0 55px;
   }
 
-/******************************************/
+/* **************************************** */
 
   .intro__road {
     margin: 0 0 43px 0;
@@ -528,7 +514,7 @@ body {
     margin: -5px 0 0 45px;
   }
 
-/**********************************************/
+/* ******************************************** */
 
   .intro__steering-wheel {
     margin: 0 39px 0 15px;
