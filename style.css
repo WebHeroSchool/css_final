@@ -11,7 +11,7 @@ body {
   align-items: center;
   flex-wrap: nowrap;
   margin: 24px 60px 58px 42px;
-  font-family: 'Montserrat-SemiBold', arial, 'sans-serif';
+  font-family: 'Montserrat-SemiBold', arial, sans-serif;
 }
 
 .header_logo__link {
@@ -111,14 +111,14 @@ body {
 }
 
 .intro__title {
-  font-family: 'Montserrat-SemiBold', 'sans-serif';
+  font-family: 'Montserrat-SemiBold', sans-serif;
   font-size: 90px;
   padding: 0;
   margin: 0;
 }
 
 .intro__subtitle {
-  font-family: 'Montserrat-Medium', arial, 'sans-serif';
+  font-family: 'Montserrat-Medium', arial, sans-serif;
   font-size: 15px;
   box-sizing: border-box;
   padding: 0;
@@ -164,14 +164,14 @@ body {
 }
 
 .intro__speedometr .intro__numbers {
-  font-family: 'Montserrat-SemiBold', 'sans-serif';
+  font-family: 'Montserrat-SemiBold', sans-serif;
   font-size: 35px;
   align-self: flex-end;
   padding: 0 6px 0 0;
 }
 
 .intro__speedometr .intro__units {
-  font-family: 'Montserrat-SemiBold', 'sans-serif';
+  font-family: 'Montserrat-SemiBold', sans-serif;
   font-size: 20px;
   padding-bottom: 3px;
   align-self: flex-end;
@@ -179,7 +179,7 @@ body {
 
 .intro__speedometr .intro_data {
   font-size: 12px;
-  font-family: 'Montserrat-Regular', arial, 'sans-serif';
+  font-family: 'Montserrat-Regular', arial, sans-serif;
   margin: 0 0 0 60px;
   align-self: flex-start;
 }
@@ -204,21 +204,21 @@ body {
 }
 
 .intro__road .intro__numbers {
-  font-family: 'Montserrat-SemiBold', 'sans-serif';
+  font-family: 'Montserrat-SemiBold', sans-serif;
   font-size: 35px;
   margin: 0 7px 0 0;
   padding: 0 0 15px 0;
 }
 
 .intro__road .intro__units {
-  font-family: 'Montserrat-SemiBold', 'sans-serif';
+  font-family: 'Montserrat-SemiBold', sans-serif;
   font-size: 20px;
   padding: 0 0 10px 0;
 }
 
 .intro__road .intro_data {
   font-size: 12px;
-  font-family: 'Montserrat-Regular', 'sans-serif';
+  font-family: 'Montserrat-Regular', sans-serif;
   margin: -10px 0 0 55px;
 }
 
@@ -241,7 +241,7 @@ body {
 }
 
 .intro__steering-wheel span {
-  font-family: 'Montserrat-Bold', arial, 'sans-serif';
+  font-family: 'Montserrat-Bold', arial, sans-serif;
   font-size: 13px;
   text-transform: uppercase;
 }
@@ -254,7 +254,7 @@ body {
   width: 160px;
   height: 40px;
   text-align: center;
-  font-family: 'Montserrat-Bold', 'sans-serif';
+  font-family: 'Montserrat-Bold', sans-serif;
   font-size: 13px;
   text-transform: uppercase;
   color: #e51937;
@@ -414,7 +414,7 @@ body {
     height: 42px;
   }
 
-  .header_logo__link{
+  .header_logo__link {
     margin: 0;
   }
 
