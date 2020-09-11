@@ -1,6 +1,6 @@
 body {
-  margin: 0 auto;
-  max-width: 100%;
+  min-width: 375px;
+  max-width: 1440px;
 }
 
 /* Начало стилей для header */
@@ -27,7 +27,7 @@ body {
 
 .header__nav-link_active {
   color: #e51937;
-  padding-bottom: 6px;
+  padding-bottom: 0;
   border-bottom: solid 2px #e51937;
   border-radius: 0 0 10px 10px / 0 0 2px 2px;
 }
@@ -41,7 +41,7 @@ body {
 
 .header__nav-link-models {
   margin-right: 58px;
-  padding: 1px 0 0 0;
+  padding: 0;
 }
 
 .header__nav-link-modelx {
@@ -87,7 +87,7 @@ body {
 .header__nav-link-shop:hover,
 .header__nav-link-entry:hover {
   color: #e51937;
-  padding-bottom: 6px;
+  padding-bottom: 0px;
   border-bottom: solid 2px #e51937;
   border-radius: 0 0 10px 10px / 0 0 2px 2px;
 }
@@ -270,6 +270,56 @@ body {
 
 /* Окончанияе стилей для intro */
 
+@media (max-width: 1150px) {
+
+  .header__menu-bar {
+    justify-content: space-between;
+    margin-left: 15px;
+    margin-bottom: 80px;
+  }
+
+  .header__hamburger-menu {
+    width: 35px;
+    height: 22px;
+  }
+
+  .header__nav-link-models {
+    margin-right: 10px;
+    padding: 0;
+  }
+
+  .header__nav-link-modelx {
+    margin-right: 10px;
+  }
+
+  .header__nav-link-model3 {
+    margin-right: 10px;
+  }
+
+  .header__nav-link-roadster {
+    margin-right: 10px;
+  }
+
+  .header__nav-link-shop {
+    margin-right: 10px;
+  }
+
+  .header__nav-link-entry {
+    margin-right: 10px;
+  }
+ }
+
+@media (max-width: 870px) {
+  .header__nav {
+    display: none;
+  }
+
+  .header__auth .header__nav-link-shop,
+  .header__auth .header__nav-link-entry {
+    display: none;
+  }
+ }
+
 /* Начало стилей для Ipod */
 
 @media (max-width: 822px) {
@@ -393,6 +443,47 @@ body {
 
 /* Окончание стилей для Ipod */
 
+
+@media (max-width: 660px) {
+  .intro__speedometr {
+    margin: 0 15px 35px 5px;
+    width: 200px;
+  }
+
+  .intro__road {
+    width: 180px;
+    margin: 0 10px 35px 0;
+  }
+
+  .intro__speedometr .intro__numbers {
+    font-size: 32px;
+  }
+
+  .intro__road .intro__numbers {
+    font-size: 32px;
+  }
+
+  .intro__steering-wheel {
+  	padding-right: 15px;
+  	margin-right: 45px;
+  	margin-left: 15px;
+  }
+
+  .intro__button {
+    width: 180px;
+    height: 50px;
+    margin: 0;
+    font-size: 15px;
+    color: white;
+    background-color: #e51937;
+  }
+}
+
+
+
+
+
+
 @media (max-width: 442px) {
   .header__menu-bar {
     margin: 5px 21px 26px 2px;
@@ -503,7 +594,7 @@ body {
   /* ******************************************** */
 
   .intro__steering-wheel {
-    margin: 0 39px 0 15px;
+    margin: 0 20px 0 15px;
   }
 
   .intro__steering-wheel span {
