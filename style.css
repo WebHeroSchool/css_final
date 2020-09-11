@@ -317,7 +317,7 @@ body {
   .header__auth .header__nav-link-entry {
     display: none;
   }
- }
+}
 
 /* Начало стилей для Ipod */
 
@@ -476,11 +476,6 @@ body {
     background-color: #e51937;
   }
 }
-
-
-
-
-
 
 @media (max-width: 442px) {
   .header__menu-bar {
