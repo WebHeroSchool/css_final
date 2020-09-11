@@ -87,7 +87,7 @@ body {
 .header__nav-link-shop:hover,
 .header__nav-link-entry:hover {
   color: #e51937;
-  padding-bottom: 0px;
+  padding-bottom: 0;
   border-bottom: solid 2px #e51937;
   border-radius: 0 0 10px 10px / 0 0 2px 2px;
 }
@@ -271,7 +271,6 @@ body {
 /* Окончанияе стилей для intro */
 
 @media (max-width: 1150px) {
-
   .header__menu-bar {
     justify-content: space-between;
     margin-left: 15px;
@@ -307,7 +306,7 @@ body {
   .header__nav-link-entry {
     margin-right: 10px;
   }
- }
+}
 
 @media (max-width: 870px) {
   .header__nav {
@@ -443,7 +442,6 @@ body {
 
 /* Окончание стилей для Ipod */
 
-
 @media (max-width: 660px) {
   .intro__speedometr {
     margin: 0 15px 35px 5px;
@@ -464,9 +462,9 @@ body {
   }
 
   .intro__steering-wheel {
-  	padding-right: 15px;
-  	margin-right: 45px;
-  	margin-left: 15px;
+    padding-right: 15px;
+    margin-right: 45px;
+    margin-left: 15px;
   }
 
   .intro__button {
