@@ -458,17 +458,17 @@ body {
   }
 
   .intro__speedometr {
-  	margin-left: 115px;
-  	margin-right: 75px;
+    margin-left: 115px;
+    margin-right: 75px;
   }
 
   .intro__road {
-  	width: 220px;
-  	margin-bottom: 60px;
+    width: 220px;
+    margin-bottom: 60px;
   }
 
   .intro__road img {
-  	margin-right: 12px;
+    margin-right: 12px;
     width: 55px;
     height: 75px;
     top: 12px;
