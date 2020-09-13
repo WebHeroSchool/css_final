@@ -445,7 +445,7 @@ body {
   }
 
   .intro__road .intro__units {
-  	padding-bottom: 0;
+    padding-bottom: 0;
     padding-top: 5px;
   }
 
@@ -645,7 +645,7 @@ body {
 
   .intro__road .intro__numbers {
     font-size: 27px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
 
   .intro__road .intro__units {
@@ -724,7 +724,7 @@ body {
     margin-right: 7px;
   }
 
-  .intro__road > span:nth-child(3) {
+  .intro__road .intro_data {
     padding: 5px 0 0 0;
   }
 
