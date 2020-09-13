@@ -654,8 +654,7 @@ body {
 
   .intro__road .intro_data {
     font-size: 10px;
-    margin: -10px 0 0 0;
-    margin-left: 45px;
+    margin: -10px 0 0 45px;
   }
 
   /* ******************************************** */
@@ -719,10 +718,6 @@ body {
   .intro__road .intro__numbers {
     padding: 0;
     margin-right: 7px;
-  }
-
-  .intro__road .intro_data {
-    padding: 5px 0 0 0;
   }
 
   .intro__road .intro_data {
