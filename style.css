@@ -486,11 +486,11 @@ body {
     left: 2px;
   }
 
-  .intro__road > span:nth-child(2) {
+  .intro__road .intro__numbers {
     margin-right: 10px;
   }
 
-  .intro__road > span:nth-child(4) {
+  .intro__road .intro_data {
     margin-left: 65px;
   }
 
@@ -504,7 +504,7 @@ body {
     margin: 0;
   }
 
-  .intro__steering-wheel > span:nth-child(3) {
+  .intro__steering-wheel span {
     padding-top: 5px;
   }
 }
@@ -524,7 +524,7 @@ body {
     font-size: 32px;
   }
 
-  .intro__speedometr > span:nth-child(3) {
+  .intro__speedometr .intro__units {
     padding-bottom: 2px;
   }
 
@@ -657,7 +657,7 @@ body {
     margin: -10px 0 0 0;
   }
 
-  .intro__road > span:nth-child(4) {
+  .intro__road .intro_data {
     margin-left: 45px;
   }
 
@@ -705,11 +705,11 @@ body {
     margin-right: 35px;
   }
 
-  .intro__speedometr > span:nth-child(3) {
+  .intro__speedometr .intro__units {
     padding: 0;
   }
 
-  .intro__speedometr > span:nth-child(4) {
+  .intro__speedometr .intro_data {
     margin-left: 50px;
   }
 
@@ -719,7 +719,7 @@ body {
     left: -1px;
   }
 
-  .intro__road > span:nth-child(2) {
+  .intro__road .intro__numbers {
     padding: 0;
     margin-right: 7px;
   }
@@ -728,7 +728,7 @@ body {
     padding: 5px 0 0 0;
   }
 
-  .intro__road > span:nth-child(4) {
+  .intro__road .intro_data {
     margin: -10px 0 0 38px;
     padding: 0;
   }
