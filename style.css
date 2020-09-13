@@ -671,8 +671,6 @@ body {
   }
 }
 
-  /* Начало стилей для мобильного разрешения из Figma */
-
 @media (max-width: 375px) {
   .header__auth {
     padding: 0;
