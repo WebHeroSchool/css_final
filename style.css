@@ -1,709 +1,708 @@
-  body {
-    min-width: 375px;
-    max-width: 1440px;
-    margin: 0;
-    padding: 0;
-  }
-
-  /* Начало стилей для header */
-
-  .header__menu-bar {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
-    margin: 24px 60px 58px 42px;
-    font-family: 'Montserrat-SemiBold', arial, sans-serif;
-  }
-
-  .header__nav {
-    padding: 0;
-    display: flex;
-    flex-wrap: nowrap;
-    margin: 0 auto;
-    margin-left: 258px;
-  }
-
-  .header__nav a {
-    text-decoration: none;
-  }
-
-  .header__nav-link_active {
-    color: #e51937;
-    padding-bottom: 0;
-    border-bottom: solid 2px #e51937;
-    border-radius: 0 0 10px 10px / 0 0 2px 2px;
-  }
-
-  .header__nav-link-modelx,
-  .header__nav-link-model3,
-  .header__nav-link-roadster,
-  .header__nav-link-energy {
-    color: #000;
-  }
-
-  .header__nav-link-models {
-    margin-right: 58px;
-    padding: 0;
-  }
-
-  .header__nav-link-modelx {
-    margin-right: 20px;
-  }
-
-  .header__nav-link-model3 {
-    margin-right: 42px;
-  }
-
-  .header__nav-link-roadster {
-    margin-right: 42px;
-  }
-
-  .header__auth {
-    display: flex;
-    flex-wrap: nowrap;
-  }
-
-  .header__auth a {
-    text-decoration: none;
-    color: #000;
-  }
-
-  .header__nav-link-shop {
-    margin-right: 25px;
-  }
-
-  .header__nav-link-entry {
-    margin-right: 30px;
-  }
-
-  .header__hamburger-menu {
-    width: 24px;
-    height: 17px;
-  }
-
-  /* "Эффекты наведения" */
-  .header__nav-link-modelx:hover,
-  .header__nav-link-model3:hover,
-  .header__nav-link-roadster:hover,
-  .header__nav-link-energy:hover,
-  .header__nav-link-shop:hover,
-  .header__nav-link-entry:hover {
-    color: #e51937;
-    padding-bottom: 0;
-    border-bottom: solid 2px #e51937;
-    border-radius: 0 0 10px 10px / 0 0 2px 2px;
-  }
-
-  /* Окончание стилей для header */
-
-  /* Начало стилей для intro */
-
-  .intro__title-subtitle {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-bottom: 26px;
-  }
-
-  .intro__title {
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 90px;
-    padding: 0;
-    margin: 0;
-  }
-
-  .intro__subtitle {
-    font-family: 'Montserrat-Medium', arial, sans-serif;
-    font-size: 15px;
-    box-sizing: border-box;
-    padding: 0;
-    margin: -12px 0 26px 0;
-  }
-
-  .intro__car-img {
-    max-width: 100%;
-    position: relative;
-    right: 35px;
-  }
-
-  .intro {
-    background-image: url(img/svg/Tesla-Wordmark-Red.png);
-    background-repeat: no-repeat;
-    background-position: center top;
-    background-size: 100%;
-  }
-
-  /* Блок 2,7сек 0-100км/ч */
-
-  .intro__feature {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 0 30px 0;
-  }
-
-  .intro__speedometr {
-    display: flex;
-    flex-wrap: wrap;
-    margin-right: 40px;
-    width: 180px;
-    padding: 0;
-  }
-
-  .intro__speedometr img {
-    width: 46px;
-    height: 35px;
-    padding: 0 14px 0 0;
-    align-self: flex-end;
-    position: relative;
-    bottom: -8px;
-  }
-
-  .intro__speedometr .intro__numbers {
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 35px;
-    align-self: flex-end;
-    padding: 0 6px 0 0;
-  }
-
-  .intro__speedometr .intro__units {
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 20px;
-    padding-bottom: 3px;
-    align-self: flex-end;
-  }
-
-  .intro__speedometr .intro_data {
-    font-size: 12px;
-    font-family: 'Montserrat-Regular', arial, sans-serif;
-    margin: 0 0 0 60px;
-    align-self: flex-start;
-  }
-
-  /* Блок 632км запас хода */
-
-  .intro__road {
-    display: flex;
-    align-items: center;
-    margin: 0 97px 0 0;
-    padding: 0;
-    width: 160px;
-    flex-wrap: wrap;
-  }
-
-  .intro__road img {
-    margin: 0 12px 0 0;
-    padding: 0;
-    position: relative;
-    top: 6px;
-    left: 6px;
-  }
-
-  .intro__road .intro__numbers {
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 35px;
-    margin: 0 7px 0 0;
-    padding: 0 0 15px 0;
-  }
-
-  .intro__road .intro__units {
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 20px;
-    padding: 0 0 10px 0;
-  }
-
-  .intro__road .intro_data {
-    font-size: 12px;
-    font-family: 'Montserrat-Regular', sans-serif;
-    margin: -22px 0 0 55px;
-  }
-
-  /* Блок Тест Драйв */
-
-  .intro__steering-wheel {
-    display: flex;
-    align-items: center;
-    margin: 0 43px 0 0;
-  }
-
-  .intro__img-steerengred {
-    display: none;
-  }
-
-  .intro__steering-wheel img {
-    width: 22px;
-    height: 22px;
-    margin-right: 7px;
-  }
-
-  .intro__steering-wheel span {
-    font-family: 'Montserrat-Bold', arial, sans-serif;
-    font-size: 13px;
-    text-transform: uppercase;
-  }
-
-  /* Кнопка ЗАКАЗАТЬ */
-
-  .intro__button {
-    box-sizing: border-box;
-    border: 2px solid #e51937;
-    width: 160px;
-    height: 40px;
-    text-align: center;
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 13px;
-    text-transform: uppercase;
-    color: #e51937;
-    background-color: white;
-    margin: 0 0 3px 0;
-  }
-
-  .intro__button:hover {
-    color: white;
-    background-color: #e51937;
-    cursor: pointer;
-  }
-
-  /* Указатель */
-
-  .intro__daw {
-    display: flex;
-    justify-content: center;
-    margin: 0 0 37px 0;
-  }
-
-  /* Окончанияе стилей для intro */
-
-  /* Начало второй секции сайта */
-  .future-drive {
-    display: flex;
-    color: #fff;
-  }
-
-  .future-drive__title-bg-img {
-    display: none;
-  }
-
-  .future-drive__title-bg {
-    width: 69.5%;
-    background-image: url(img/svg/2013-tesla-model-s-cockpit.svg);
-    background-position: bottom left;
-    background-repeat: no-repeat;
-  }
-
-  .future-drive__title-first {
-    margin: 58px 0 0 0;
-    padding-left: 7.5%;
-    color: #e51937;
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 70px;
-  }
-
-  .future-drive__info {
-    width: 30.5%;
-    background-color: #e51937;
-  }
-
-  .future-drive__info-text {
-    display: block;
-    width: 74%;
-    margin-top: 49px;
-    margin-left: 11%;
-  }
-
-  .future-drive__title-second {
-    font-size: 30px;
-    color: #fff;
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    margin-bottom: 6px;
-  }
-
-  .future-drive__description {
-    font-family: 'Montserrat-Medium', sans-serif;
-    font-size: 15px;
-    margin-top: 0;
-    margin-bottom: 54px;
-  }
-
-  .future-drive__display-description {
-    font-size: 12px;
-    font-family: 'Montserrat-Regular', sans-serif;
-  }
-
-  .future-drive__display {
-    display: flex;
-    width: 50%;
-    margin-left: 11.75%;
-    margin-bottom: 35px;
-  }
-
-  .future-drive__numbers {
-    font-size: 35px;
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    padding-right: 7px;
-  }
-
-  .future-drive__inch {
-    font-size: 20px;
-    font-family: 'Montserrat-SemiBold', sans-serif;
-  }
-
-  .future-drive__img-display {
-    padding-top: 13px;
-    padding-right: 19px;
-    width: 22%;
-  }
-
-  .future-drive__wifi {
-    display: flex;
-    width: 55%;
-    margin-left: 12%;
-    margin-bottom: 25px;
-  }
-
-  .future-drive__wifi-descripton {
-    font-family: 'Montserrat-Regular', sans-serif;
-    font-size: 12px;
-    padding-top: 5px;
-    line-height: 1.1;
-  }
-
-  .future-drive__img-wifi {
-    padding-top: 22px;
-    padding-right: 25px;
-    width: 40%;
-    height: 30%;
-  }
-
-  .future-drive__wireless {
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 20px;
-  }
-
-  .future-drive__bag {
-    display: flex;
-    width: 50%;
-    margin-left: 12%;
-    margin-bottom: 171px;
-  }
-
-  .future-drive__bag-description {
-    font-family: 'Montserrat-Regular', sans-serif;
-    font-size: 12px;
-  }
-
-  .future-drive__img-bag {
-    width: 35%;
-    padding-top: 15px;
-    padding-right: 20px;
-  }
-
-  .future-drive__litr {
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 20px;
-  }
-
-  .future-drive__learn-more {
-    display: flex;
-    margin-left: 12%;
-    margin-bottom: 73px;
-    margin-right: 53px;
-  }
-
-  .future-drive__learn-more-img {
-    padding-top: 9px;
-    padding-right: 9px;
-  }
-
-  .future-drive__learn-more-info {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 	13px;
-    text-transform: uppercase;
-    padding-top: 10px;
-    padding-right: 8.5%;
-  }
-
-  .future-drive__learn-more-info:hover {
-    cursor: pointer;
-    text-decoration: underline;
-  }
-
-  .future-drive__button {
-    color: #fff;
-    background: #E51937;
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 13px;
-    text-transform: uppercase;
-    border: 2px solid #FFFFFF;
-    width: 169%;
-    height: 129%;
-  }
-
-  .future-drive__button:hover {
-    background: #fff;
-    color: #e51937;
-    cursor: pointer;
-  }
-
-  /* Начало стилей для третьей секции сайта */
-
-  .safety {
-    display: flex;
-    width: 100%;
-  }
-
-  .safety__description {
-    width: 30.5%;
-    background: #E51937;
-    color: #fff;
-    padding-top: 51px;
-  }
-
-  .safety__description-text h4 {
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 30px;
-    padding: 0;
-    margin: 0 0 10px 13%;
-  }
-
-  .safety__description-text p {
-    font-family: 'Montserrat-Medium', sans-serif;
-    font-size: 15px;
-    line-height: 1.2;
-    width: 75%;
-    margin: 0 0 60px 13%;
-  }
-
-  .safety__front-gradeDefense {
-    display: block;
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 30px;
-    margin: 0 0 23px 13%;
-    padding: 0 0 0 0;
-  }
-
-  .safety__front {
-    display: flex;
-    align-items: center;
-    margin-bottom: 12px;
-  }
-
-  .safety__front-text {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 17px;
-    text-transform: uppercase;
-    margin: 0 14% 0 13%;
-  }
-
-  .safety__side {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-
-  .safety__side-text {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 17px;
-    text-transform: uppercase;
-    margin: 0 19.5% 0 13%;
- }
-
-  .safety__pillar {
-    display: flex;
-    align-items: center;
-    margin-bottom: 11px;
-  }
-
-  .safety__pillar-text {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 17px;
-    text-transform: uppercase;
-    margin: 0 5.5% 0 13%;
-  }
-
-  .safety__pillar-text-add {
-    font-size: 10px;
-  }
-
-  .safety__driver {
-    display: flex;
-    align-items: center;
-    margin-bottom: 10px;
-  }
-
-  .safety__driver-text {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 17px;
-    text-transform: uppercase;
-    margin: 0 11% 0 13%;
-  }
-
-  .safety__passenger {
-    display: flex;
-    align-items: center;
-    margin-bottom: 100px;
-  }
-
-  .safety__passenger-text {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 17px;
-    text-transform: uppercase;
-    margin: 0 9.5% 0 13%;
-  }
-
-  .safety__grade {
-    display: flex;
-    margin-left: 15%;
-    align-items: center;
-    margin-bottom: 61px;
-  }
-
-  .safety__grade-img {
-    display: inline-block;
-    width: 23%;
-    margin-right: 25px;
-  }
-
-  .safety__grade-text {
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 50px;
-  }
-
-  .safety__secure-text {
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 25px;
-    display: inline-block;
-    margin-top: -10px;
-  }
-
-  .safety__learn-more {
-    display: flex;
-    margin-left: 8.5%;
-    align-items: center;
-  }
-
-  .safety__learn-more-img {
-    padding-right: 5px;
-  }
-
-  .safety__learn-more-info {
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 13px;
-    text-transform: uppercase;
-    padding-right: 35px;
-  }
-
-  .safety__button {
-    color: #fff;
-    background: #E51937;
-    font-family: 'Montserrat-Bold', sans-serif;
-    font-size: 13px;
-    text-transform: uppercase;
-    border: 2px solid #FFFFFF;
-    height: 40px;
-    width: 160px;
-  }
-
-  /* Иллюстрация справа в третьей секции */
-
-  .safety__illustration {
-    width: 69.5%; 
-    background-image: url(img/ico/model-s-bg.png);
-    background-repeat: no-repeat;
-    background-position: 100% 19%;
-    background-size: 79%;
-  }
-
-  .safety__illustration-pointerLeft-imgSecond {
-    display: none;
-  }
-
-  .safety__illustration-pointerCenter-imgSecond {
-    display: none;
-  }
-
-  .safety__illustration-pointerBottom-imgSecond {
-    display: none;
-  }
-
-  .safety__illustration-car-frame-img {
-    width: 105%;
-    height: auto;
-    position: relative;
-    top: 220px;
-    right: 9.5%;
-    margin-bottom: 17px;
-  }
-
-  .safety__illustration__pointerall {
-    display: flex;
-  }
-
-  .safety__illustration-pointerLeft img {
-    width: 100%;
-    height: auto;
-    position: relative;
-    left: 88%;
-    bottom: 346px;
-  }
-
-  .safety__illustration-pointerCenter {
-    position: relative;
-    bottom: 387px;
-    left: 25.5%;
-  }
-
-  .safety__illustration-pointerCenter span {
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 17px;
-    position: relative;
-    bottom: 140px;
-    left: 8%;
-    display: flex;
-    width: 75%;
-    line-height: 1;
-  }
-
-  .safety__illustration-pointerBottom {
-    position: relative;
-    left: 10.5%;
-    top: 26px;
-  }
-
-  .safety__illustration-pointerBottom span {
-    font-family: 'Montserrat-SemiBold', sans-serif;
-    font-size: 17px;
-    position: relative;
-    bottom: 35px;
-    left: 4%;
-    display: flex;
-    width: 75%;
-    line-height: 1;
- }
-
-  .safety__illustration-logo {
-    display: flex;
-    width: 5%;
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 89%;
-    margin-bottom: 10px;
-  }
-
-  .safety__illustration-logo-dev {
-    width: 165%;
-    height: auto;
-    margin-left: 87%;
-    margin-right: 7px;
-    margin-bottom: 7px;
-  }
-
-  .safety__illustration-logo-whs {
-    margin-left: 87%;
-    margin-right: 2px;
-  }
+body {
+  min-width: 375px;
+  max-width: 1440px;
+  margin: 0;
+  padding: 0;
+}
+
+/* Начало стилей для header */
+
+.header__menu-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  margin: 24px 60px 58px 42px;
+  font-family: 'Montserrat-SemiBold', arial, sans-serif;
+}
+
+.header__nav {
+  padding: 0;
+  display: flex;
+  flex-wrap: nowrap;
+  margin: 0 auto;
+  margin-left: 258px;
+}
+
+.header__nav a {
+  text-decoration: none;
+}
+
+.header__nav-link_active {
+  color: #e51937;
+  padding-bottom: 0;
+  border-bottom: solid 2px #e51937;
+  border-radius: 0 0 10px 10px / 0 0 2px 2px;
+}
+
+.header__nav-link-modelx,
+.header__nav-link-model3,
+.header__nav-link-roadster,
+.header__nav-link-energy {
+  color: #000;
+}
+
+.header__nav-link-models {
+  margin-right: 58px;
+  padding: 0;
+}
+
+.header__nav-link-modelx {
+  margin-right: 20px;
+}
+
+.header__nav-link-model3 {
+  margin-right: 42px;
+}
+
+.header__nav-link-roadster {
+  margin-right: 42px;
+}
+
+.header__auth {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.header__auth a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header__nav-link-shop {
+  margin-right: 25px;
+}
+
+.header__nav-link-entry {
+  margin-right: 30px;
+}
+
+.header__hamburger-menu {
+  width: 24px;
+  height: 17px;
+}
+
+/* "Эффекты наведения" */
+.header__nav-link-modelx:hover,
+.header__nav-link-model3:hover,
+.header__nav-link-roadster:hover,
+.header__nav-link-energy:hover,
+.header__nav-link-shop:hover,
+.header__nav-link-entry:hover {
+  color: #e51937;
+  padding-bottom: 0;
+  border-bottom: solid 2px #e51937;
+  border-radius: 0 0 10px 10px / 0 0 2px 2px;
+}
+
+/* Окончание стилей для header */
+
+/* Начало стилей для intro */
+
+.intro__title-subtitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.intro__title {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 90px;
+  padding: 0;
+  margin: 0;
+}
+
+.intro__subtitle {
+  font-family: 'Montserrat-Medium', arial, sans-serif;
+  font-size: 15px;
+  box-sizing: border-box;
+  padding: 0;
+  margin: -12px 0 26px 0;
+}
+
+.intro__car-img {
+  max-width: 100%;
+  position: relative;
+  right: 35px;
+}
+
+.intro {
+  background-image: url(img/svg/Tesla-Wordmark-Red.png);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100%;
+}
+
+/* Блок 2,7сек 0-100км/ч */
+
+.intro__feature {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0 30px 0;
+}
+
+.intro__speedometr {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: 40px;
+  width: 180px;
+  padding: 0;
+}
+
+.intro__speedometr img {
+  width: 46px;
+  height: 35px;
+  padding: 0 14px 0 0;
+  align-self: flex-end;
+  position: relative;
+  bottom: -8px;
+}
+
+.intro__speedometr .intro__numbers {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 35px;
+  align-self: flex-end;
+  padding: 0 6px 0 0;
+}
+
+.intro__speedometr .intro__units {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 20px;
+  padding-bottom: 3px;
+  align-self: flex-end;
+}
+
+.intro__speedometr .intro_data {
+  font-size: 12px;
+  font-family: 'Montserrat-Regular', arial, sans-serif;
+  margin: 0 0 0 60px;
+  align-self: flex-start;
+}
+
+/* Блок 632км запас хода */
+
+.intro__road {
+  display: flex;
+  align-items: center;
+  margin: 0 97px 0 0;
+  padding: 0;
+  width: 160px;
+  flex-wrap: wrap;
+}
+
+.intro__road img {
+  margin: 0 12px 0 0;
+  padding: 0;
+  position: relative;
+  top: 6px;
+  left: 6px;
+}
+
+.intro__road .intro__numbers {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 35px;
+  margin: 0 7px 0 0;
+  padding: 0 0 15px 0;
+}
+
+.intro__road .intro__units {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 20px;
+  padding: 0 0 10px 0;
+}
+
+.intro__road .intro_data {
+  font-size: 12px;
+  font-family: 'Montserrat-Regular', sans-serif;
+  margin: -22px 0 0 55px;
+}
+
+/* Блок Тест Драйв */
+
+.intro__steering-wheel {
+  display: flex;
+  align-items: center;
+  margin: 0 43px 0 0;
+}
+
+.intro__img-steerengred {
+  display: none;
+}
+
+.intro__steering-wheel img {
+  width: 22px;
+  height: 22px;
+  margin-right: 7px;
+}
+
+.intro__steering-wheel span {
+  font-family: 'Montserrat-Bold', arial, sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+/* Кнопка ЗАКАЗАТЬ */
+
+.intro__button {
+  box-sizing: border-box;
+  border: 2px solid #e51937;
+  width: 160px;
+  height: 40px;
+  text-align: center;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #e51937;
+  background-color: white;
+  margin: 0 0 3px 0;
+}
+
+.intro__button:hover {
+  color: white;
+  background-color: #e51937;
+  cursor: pointer;
+}
+
+/* Указатель */
+
+.intro__daw {
+  display: flex;
+  justify-content: center;
+  margin: 0 0 37px 0;
+}
+
+/* Окончанияе стилей для intro */
+
+/* Начало второй секции сайта */
+.future-drive {
+  display: flex;
+  color: #fff;
+}
+
+.future-drive__title-bg-img {
+  display: none;
+}
+
+.future-drive__title-bg {
+  width: 69.5%;
+  background-image: url(img/svg/2013-tesla-model-s-cockpit.svg);
+  background-position: bottom left;
+  background-repeat: no-repeat;
+}
+
+.future-drive__title-first {
+  margin: 58px 0 0 0;
+  padding-left: 7.5%;
+  color: #e51937;
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 70px;
+}
+
+.future-drive__info {
+  width: 30.5%;
+  background-color: #e51937;
+}
+
+.future-drive__info-text {
+  display: block;
+  width: 74%;
+  margin-top: 49px;
+  margin-left: 11%;
+}
+
+.future-drive__title-second {
+  font-size: 30px;
+  color: #fff;
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  margin-bottom: 6px;
+}
+
+.future-drive__description {
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 54px;
+}
+
+.future-drive__display-description {
+  font-size: 12px;
+  font-family: 'Montserrat-Regular', sans-serif;
+}
+
+.future-drive__display {
+  display: flex;
+  width: 50%;
+  margin-left: 11.75%;
+  margin-bottom: 35px;
+}
+
+.future-drive__numbers {
+  font-size: 35px;
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  padding-right: 7px;
+}
+
+.future-drive__inch {
+  font-size: 20px;
+  font-family: 'Montserrat-SemiBold', sans-serif;
+}
+
+.future-drive__img-display {
+  padding-top: 13px;
+  padding-right: 19px;
+  width: 22%;
+}
+
+.future-drive__wifi {
+  display: flex;
+  width: 55%;
+  margin-left: 12%;
+  margin-bottom: 25px;
+}
+
+.future-drive__wifi-descripton {
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-size: 12px;
+  padding-top: 5px;
+  line-height: 1.1;
+}
+
+.future-drive__img-wifi {
+  padding-top: 22px;
+  padding-right: 25px;
+  width: 40%;
+  height: 30%;
+}
+
+.future-drive__wireless {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 20px;
+}
+
+.future-drive__bag {
+  display: flex;
+  width: 50%;
+  margin-left: 12%;
+  margin-bottom: 171px;
+}
+
+.future-drive__bag-description {
+  font-family: 'Montserrat-Regular', sans-serif;
+  font-size: 12px;
+}
+.future-drive__img-bag {
+width: 35%;
+padding-top: 15px;
+padding-right: 20px;
+}
+
+.future-drive__litr {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 20px;
+}
+
+.future-drive__learn-more {
+  display: flex;
+  margin-left: 12%;
+  margin-bottom: 73px;
+  margin-right: 53px;
+}
+
+.future-drive__learn-more-img {
+  padding-top: 9px;
+  padding-right: 9px;
+}
+
+.future-drive__learn-more-info {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 	13px;
+  text-transform: uppercase;
+  padding-top: 10px;
+  padding-right: 8.5%;
+}
+
+.future-drive__learn-more-info:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.future-drive__button {
+  color: #fff;
+  background: #E51937;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  border: 2px solid #FFFFFF;
+  width: 169%;
+  height: 129%;
+}
+
+.future-drive__button:hover {
+  background: #fff;
+  color: #e51937;
+  cursor: pointer;
+}
+
+/* Начало стилей для третьей секции сайта */
+
+.safety {
+  display: flex;
+  width: 100%;
+}
+
+.safety__description {
+  width: 30.5%;
+  background: #E51937;
+  color: #fff;
+  padding-top: 51px;
+}
+
+.safety__description-text h4 {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 30px;
+  padding: 0;
+  margin: 0 0 10px 13%;
+}
+
+.safety__description-text p {
+  font-family: 'Montserrat-Medium', sans-serif;
+  font-size: 15px;
+  line-height: 1.2;
+  width: 75%;
+  margin: 0 0 60px 13%;
+}
+
+.safety__front-gradeDefense {
+  display: block;
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 30px;
+  margin: 0 0 23px 13%;
+  padding: 0 0 0 0;
+}
+
+.safety__front {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.safety__front-text {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin: 0 14% 0 13%;
+}
+
+.safety__side {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.safety__side-text {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin: 0 19.5% 0 13%;
+}
+
+.safety__pillar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 11px;
+}
+
+.safety__pillar-text {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin: 0 5.5% 0 13%;
+}
+
+.safety__pillar-text-add {
+  font-size: 10px;
+}
+
+.safety__driver {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.safety__driver-text {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin: 0 11% 0 13%;
+}
+
+.safety__passenger {
+  display: flex;
+   align-items: center;
+  margin-bottom: 100px;
+}
+
+.safety__passenger-text {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 17px;
+  text-transform: uppercase;
+  margin: 0 9.5% 0 13%;
+}
+
+.safety__grade {
+  display: flex;
+  margin-left: 15%;
+  align-items: center;
+  margin-bottom: 61px;
+}
+
+.safety__grade-img {
+  display: inline-block;
+  width: 23%;
+  margin-right: 25px;
+}
+
+.safety__grade-text {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 50px;
+}
+
+.safety__secure-text {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  margin-top: -10px;
+}
+
+.safety__learn-more {
+  display: flex;
+  margin-left: 8.5%;
+  align-items: center;
+}
+
+.safety__learn-more-img {
+  padding-right: 5px;
+}
+
+.safety__learn-more-info {
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  padding-right: 35px;
+}
+
+.safety__button {
+  color: #fff;
+  background: #E51937;
+  font-family: 'Montserrat-Bold', sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  border: 2px solid #FFFFFF;
+  height: 40px;
+  width: 160px;
+}
+
+/* Иллюстрация справа в третьей секции */
+
+.safety__illustration {
+  width: 69.5%; 
+  background-image: url(img/ico/model-s-bg.png);
+  background-repeat: no-repeat;
+  background-position: 100% 19%;
+  background-size: 79%;
+}
+
+.safety__illustration-pointerLeft-imgSecond {
+  display: none;
+}
+
+.safety__illustration-pointerCenter-imgSecond {
+  display: none;
+}
+
+.safety__illustration-pointerBottom-imgSecond {
+  display: none;
+}
+
+.safety__illustration-car-frame-img {
+  width: 105%;
+  height: auto;
+  position: relative;
+  top: 220px;
+  right: 9.5%;
+  margin-bottom: 17px;
+}
+
+.safety__illustration__pointerall {
+  display: flex;
+}
+
+.safety__illustration-pointerLeft img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  left: 88%;
+  bottom: 346px;
+}
+
+.safety__illustration-pointerCenter {
+  position: relative;
+  bottom: 387px;
+  left: 25.5%;
+}
+
+.safety__illustration-pointerCenter span {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 17px;
+  position: relative;
+  bottom: 140px;
+  left: 8%;
+  display: flex;
+  width: 75%;
+  line-height: 1;
+}
+
+.safety__illustration-pointerBottom {
+  position: relative;
+  left: 10.5%;
+  top: 26px;
+}
+
+.safety__illustration-pointerBottom span {
+  font-family: 'Montserrat-SemiBold', sans-serif;
+  font-size: 17px;
+  position: relative;
+  bottom: 35px;
+  left: 4%;
+  display: flex;
+  width: 75%;
+  line-height: 1;
+}
+
+.safety__illustration-logo {
+  display: flex;
+  width: 5%;
+  height: auto;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 89%;
+  margin-bottom: 10px;
+}
+
+.safety__illustration-logo-dev {
+  width: 165%;
+  height: auto;
+  margin-left: 87%;
+  margin-right: 7px;
+  margin-bottom: 7px;
+}
+
+.safety__illustration-logo-whs {
+  margin-left: 87%;
+  margin-right: 2px;
+}
 
   /* ******************************************** */
 
