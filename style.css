@@ -1,11 +1,11 @@
-body {
-  min-width: 375px;
-  max-width: 1440px;
-  margin: 0;
-  padding: 0;
-}
+  body {
+    min-width: 375px;
+    max-width: 1440px;
+    margin: 0;
+    padding: 0;
+  }
 
-/* Начало стилей для header */
+  /* Начало стилей для header */
 
   .header__menu-bar {
     display: flex;
@@ -314,7 +314,7 @@ body {
 
   .future-drive__title-second {
     font-size: 30px;
-    color: #FFFFFF;
+    color: #fff;
     font-family: 'Montserrat-SemiBold', sans-serif;
     margin-bottom: 6px;
   }
@@ -672,7 +672,7 @@ body {
   }
 
   .safety__illustration-pointerBottom span {
-    font-family: 'Montserrat-SemiBold';
+    font-family: 'Montserrat-SemiBold', sans-serif;
     font-size: 17px;
     position: relative;
     bottom: 35px;
@@ -707,7 +707,7 @@ body {
 
   /* ******************************************** */
 
-	@media (max-width: 1439px) {
+@media (max-width: 1439px) {
   .header__nav {
     margin: 0 auto;
   }
@@ -1143,7 +1143,7 @@ body {
     bottom: 44px;
     width: 50%;
   }
-  
+
   /* Конец Указатели на изображении */
 
   .safety__description {
@@ -1230,7 +1230,6 @@ body {
     height: 54px;
     width: 220px;
   }
-
 }
 
 @media (max-width: 710px) {
@@ -1556,11 +1555,11 @@ body {
   }
 
   .safety__illustration-pointerCenter {
-  	position: static;
-  	display: inline-block;
-  	position: relative;
-  	bottom: 302px;
-  	left: 184px;
+    position: static;
+    display: inline-block;
+    position: relative;
+    bottom: 302px;
+    left: 184px;
   }
 
   .safety__illustration-pointerCenter-imgSecond {
