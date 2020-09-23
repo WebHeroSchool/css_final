@@ -608,8 +608,7 @@ body {
   /* Иллюстрация справа в третьей секции */
 
   .safety__illustration {
-    width: 69.5%;
-    height: 
+    width: 69.5%; 
     background-image: url(img/ico/model-s-bg.png);
     background-repeat: no-repeat;
     background-position: 100% 19%;
