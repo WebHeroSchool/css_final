@@ -1323,14 +1323,13 @@ body {
     width: 80%;
     padding: 64px 0 0 0;
     margin: 0 auto;
-}
+  }
 
   .safety__foripod {
     width: 80%;
     padding: 0;
     margin: 0 auto;
-}
-
+  }
 }
 
 @media (max-width: 520px) {
@@ -1341,7 +1340,7 @@ body {
 
   .future-drive__title-first {
     padding: 1% 0 53% 36%;
-}
+  }
 }
 
 @media (max-width: 475px) {
