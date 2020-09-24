@@ -598,7 +598,7 @@ body {
 
 .safety__button {
   color: #fff;
-  background: #E51937;
+  background: #e51937;
   font-family: 'Montserrat-Bold', sans-serif;
   font-size: 13px;
   text-transform: uppercase;
@@ -643,7 +643,8 @@ body {
   width: 105%;
 }
 
-.safety__illustration-car-frame-img-ipod, .safety__illustration-car-frame-img-mobile {
+.safety__illustration-car-frame-img-ipod,
+.safety__illustration-car-frame-img-mobile {
   display: none;
 }
 
@@ -784,7 +785,7 @@ body {
     margin: 0 auto;
     margin-bottom: 25px;
     width: 55%;
-}
+  }
 
   .future-drive__img-wifi {
     width: 150%;
@@ -1080,7 +1081,7 @@ body {
     font-size: 16px;
   }
 
-    .future-driveform-button {
+  .future-driveform-button {
     margin-bottom: 0;
   }
 
@@ -1309,9 +1310,6 @@ body {
   }
 }
 
-
-
-
 @media (max-width: 560px) {
   .future-drive__learn-more {
     display: none;
@@ -1341,7 +1339,7 @@ body {
     width: 200px;
   }
 
-    .future-drive__title-first {
+  .future-drive__title-first {
     padding: 1% 0 53% 36%;
 }
 }
