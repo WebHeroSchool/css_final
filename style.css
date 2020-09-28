@@ -853,7 +853,7 @@ body {
     height: 40%;
     padding-top: 15px;
     padding-right: 20px;
-}
+  }
 
   .future-drive__learn-more {
     flex-wrap: wrap-reverse;
@@ -1880,7 +1880,7 @@ body {
 
   .intro__road .intro__units {
     padding-bottom: 0;
-     padding-top: 8px;
+    padding-top: 8px;
   }
 
   .intro__steering-wheel {
