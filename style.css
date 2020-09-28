@@ -1007,7 +1007,7 @@ body {
   .safety__description-text h4 {
     font-size: 28px;
   }
-}
+  }
 
 /* Окончание стилей для Ipod */
 
@@ -1022,7 +1022,7 @@ body {
     height: 327.64px;
     top: 60px;
     left: 0;
-}
+  }
 
   .intro__feature {
     margin: 0 0 60px 0;
@@ -1039,16 +1039,16 @@ body {
     height: 59px;
     padding-top: 13px;
     padding-right: 16px;
-}
+  }
 
   .intro__speedometr .intro__numbers {
     padding-bottom: 7px;
-}
+  }
 
   .intro__speedometr .intro__units {
     padding-bottom: 21px;
     padding-left: 4px;
-}
+  }
 
   .intro__road {
     width: 220px;
@@ -1274,7 +1274,7 @@ body {
 
   .safety__front {
     margin-bottom: 10px;
-}
+  }
 
   .safety__front-text {
     margin: 0 60px 0 10%;
@@ -1346,7 +1346,7 @@ body {
     width: 7%;
     height: 7%;
     padding: 0 13px 6px 0;
-}
+  }
 }
 
 @media (max-width: 735px) {
@@ -1365,7 +1365,6 @@ body {
     background-image: url(img/ico/2013-tesla-model-s-cockpit768px.png);
     background-size: cover;
   }
-
 }
 
 @media (max-width: 710px) {
