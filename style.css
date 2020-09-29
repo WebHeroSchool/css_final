@@ -829,7 +829,7 @@ body {
     background-size: 190% 68%;
   }
 
-    .safety__illustration-car-frame-img {
+  .safety__illustration-car-frame-img {
     position: absolute;
     top: 275px;
     left: -95px;
@@ -954,7 +954,7 @@ body {
     margin-left: 20px;
   }
 
-    .safety__illustration-logo {
+  .safety__illustration-logo {
     margin-left: 75%;
   }
 }
