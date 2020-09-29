@@ -618,6 +618,7 @@ body {
   background-size: 79%;
   display: flex;
   flex-direction: column;
+  position: relative;
 }
 
 .safety__illustration-pointerLeft-imgSecond {
@@ -637,10 +638,9 @@ body {
 }
 
 .safety__illustration-car-frame-img {
-  position: relative;
-  top: 50px;
+  position: absolute;
+  top: 175px;
   left: -95px;
-  width: 105%;
 }
 
 .safety__illustration-car-frame-img-ipod,
@@ -679,6 +679,16 @@ body {
   }
 }
 
+@media (max-width: 1350px) {
+  .safety__illustration-car-frame-img {
+    position: absolute;
+    top: 175px;
+    left: -95px;
+    width: 950px;
+    height: 536px;
+  }
+}
+
 @media (max-width: 1300px) {
   .future-drive__info {
     width: 40%;
@@ -686,6 +696,20 @@ body {
 
   .safety__description {
     width: 35%;
+  }
+}
+
+@media (max-width: 1350px) {
+  .safety__illustration-car-frame-img {
+    position: absolute;
+    top: 175px;
+    left: -95px;
+    width: 850px;
+    height: 480px;
+  }
+
+  .safety__illustration-logo {
+    margin-left: 80%;
   }
 }
 
@@ -729,6 +753,14 @@ body {
   .safety__description {
     width: 45%;
   }
+
+  .safety__illustration-car-frame-img {
+    position: absolute;
+    top: 175px;
+    left: -95px;
+    width: 750px;
+    height: 423px;
+  }
 }
 
 @media (max-width: 1100px) {
@@ -754,6 +786,16 @@ body {
   .safety__description-text p {
     width: 85%;
     margin: 0 0 60px 6%;
+  }
+}
+
+@media (max-width: 1065px) {
+  .safety__illustration-car-frame-img {
+    position: absolute;
+    top: 175px;
+    left: -95px;
+    width: 700px;
+    height: 395px;
   }
 }
 
@@ -786,6 +828,24 @@ body {
     background-repeat: no-repeat;
     background-size: 190% 68%;
   }
+
+    .safety__illustration-car-frame-img {
+    position: absolute;
+    top: 275px;
+    left: -95px;
+    width: 600px;
+    height: 339px;
+  }
+}
+
+@media (max-width: 965px) {
+  .safety__illustration-car-frame-img {
+    position: absolute;
+    top: 335px;
+    left: -30px;
+    width: 495px;
+    height: 279px;
+  }
 }
 
 @media (max-width: 900px) {
@@ -794,6 +854,14 @@ body {
     background-position: bottom left;
     background-repeat: no-repeat;
     background-size: 190% 60%;
+  }
+
+    .safety__illustration-car-frame-img {
+    position: absolute;
+    top: 335px;
+    left: -20px;
+    width: 450px;
+    height: 254px;
   }
 }
 
@@ -809,6 +877,14 @@ body {
 
   .safety__description {
     width: 83%;
+  }
+
+      .safety__illustration-car-frame-img {
+    position: absolute;
+    top: 335px;
+    left: -20px;
+    width: 400px;
+    height: 226px;
   }
 }
 
@@ -876,6 +952,10 @@ body {
 
   .future-drive__learn-more-img {
     margin-left: 20px;
+  }
+
+    .safety__illustration-logo {
+    margin-left: 75%;
   }
 }
 
@@ -1001,6 +1081,14 @@ body {
     color: white;
     background-color: #e51937;
   }
+
+        .safety__illustration-car-frame-img {
+    position: absolute;
+    top: 335px;
+    left: -20px;
+    width: 375px;
+    height: 212px;
+  }
 }
 
 @media (max-width: 810px) {
@@ -1104,7 +1192,6 @@ body {
   }
 
   .future-drive__title-first {
-    width: 100%;
     margin: 0;
     padding: 4.25% 0 53% 56.5%;
   }
@@ -1210,12 +1297,14 @@ body {
   }
 
   .safety__illustration {
+    position: relative;
     width: 100%;
     margin: 0;
     background-image: none;
     background-repeat: no-repeat;
     background-position: 100% 19%;
     background-size: 79%;
+    margin-bottom: 99px;
   }
 
   .safety__illustration-logo {
@@ -1226,7 +1315,6 @@ body {
     background-image: url(img/ico/ModelS_background_for_ipod.png);
     background-repeat: no-repeat;
     background-position: top 69px center;
-    margin-bottom: 99px;
   }
 
   .safety__illustration-car-frame-img,
@@ -1364,6 +1452,12 @@ body {
     width: 100%;
     background-image: url(img/ico/2013-tesla-model-s-cockpit768px.png);
     background-size: cover;
+  }
+
+  .intro__speedometr {
+    margin-left: 100px;
+    margin-right: 70px;
+    width: 213px;
   }
 }
 
